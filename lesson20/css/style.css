@@ -1,0 +1,368 @@
+/* Общие свойства для всего сайта */
+
+html {
+	font-size: 10px;
+  font-family: 'Cuprum', sans-serif;
+  color: #333;
+}
+
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+/* Секция: Шапка */
+#main {
+	height: 100vh;
+	background: url('../img/fon2.jpg') no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+	text-align: center;
+}
+
+.main-header {
+	position: absolute;
+  left: 50%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.main-header h1 {
+	text-shadow: 2px 2px 7px #111111;
+	font-size: 4rem;
+	margin-bottom: 2rem;
+}
+
+.main-header p {
+	text-shadow: 2px 2px 7px #111111;
+	font-size: 2rem;
+	margin-top: 3rem;
+	line-height: 1.4;
+}
+
+.main-line {
+	box-shadow: 1px 1px 7px #111111;
+	height: 3px;
+	background-color: #FFF;
+	width: 100%;
+	display: block;
+}
+
+.main-arrow {
+	position: absolute;
+	bottom: 1rem;
+	display: inline-block;
+	font-size: 3.5rem;
+	color: #fff;
+	border-radius: 50%;
+	border: 2px solid transparent;
+	line-height: 50px;
+	transform: translateX(-50%) translateY(-50%);
+	transition: 0.3s;
+}
+
+.main-arrow:hover {
+	color: #FFF;
+	border-color: #FFF;
+}
+
+.social-icons {
+	margin: 15px 0;
+}
+
+.social-icons li {
+	display: inline-block;
+	margin: 0 15px;
+}
+
+.social-icons a {
+	text-decoration: none;
+}
+
+.vk img {
+	width: 45px;
+}
+
+/* Секция: портфолио */
+
+#portfolio {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+.portfolio-header {
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 800;
+	font-size: 3rem;
+	
+}
+
+.portfolio-works {
+	margin: 0 auto;
+	padding-top: 7rem;
+	padding-bottom: 7rem;
+}
+.portfolio-box {
+	display: inline-block;
+	width: 33%;
+	text-align: center;
+}
+
+.portfolio-box img {
+	box-shadow: 0px 4px 29px 0px rgba(87, 92, 97, 0.54);
+	width: 100%;
+	max-width: 280px;
+}
+
+.portfolio-box a {
+	display: block;
+	margin-top: 2rem;
+	text-decoration: none;
+	color: #555;
+	font-size: 1.5rem;
+}
+
+/* Секция: друзья */
+
+#friends {
+	padding-top: 8rem;
+	padding-bottom: 8rem;
+	background-color: #F9F9F9;
+	color: #565656;
+}
+
+#friends .text-info {
+	font-size: 2rem;
+}
+
+.text-info {
+	width: 33.33%;
+	margin-bottom: 40px;
+	padding-left: 52px;
+}
+
+.text-info h2 {
+	text-transform: uppercase;
+	font-size: 2.5rem;
+	margin-bottom: 15px;
+}
+
+.text-info p {
+	color: #9AA0AB;
+}
+
+.fr-info {
+  display: flex;
+  flex-wrap: nowrap;
+	width: 1170px;
+}
+.fr-box {
+	display: inline-block;
+	width: 33%;
+}
+
+.fr-box img {
+	float: left;
+	box-shadow: 0px 0px 35px 4px rgba(87, 92, 97, 0.54);
+	margin-right: 20px;
+	width: 120px;
+	border-radius: 70px;
+}
+.fr-box h2 {
+	text-transform: uppercase;
+	font-size: 2.5rem;
+}
+
+.info-ab-fr {
+	text-align: left;
+}
+
+.fr-who {
+	color: red;
+	font-size: 1.5rem;
+	font-weight: bold;
+	padding-top: 1.2rem;
+}
+
+.fr-description {
+	font-size: 1.5rem;
+	font-weight: bold;
+	padding-top: 1.2rem;
+}
+
+/* Секция с подвалом */
+footer {
+    background-color: #646464;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    color: #FFF;
+}
+
+footer a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.footer-info, .social-links, .callback {
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+}
+
+.footer-head {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.footer-info, .social-links, .callback {
+    font-size: 1.5rem;
+}
+
+.footer-name, .sub {
+    font-size: 1.65rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.sub {
+    font-size: 1.65rem;
+}
+
+.icon-vkontakte, .icon-instagram, .icon-twitter {
+    font-size: 3rem;
+}
+
+.icon-vkontakte {
+	padding-right: 3.5px;
+}
+
+.social-links a {
+	width: 5rem;
+	height: 5rem;
+	line-height: 5rem;
+	display: inline-block;
+	border: 2px solid transparent;
+  transition: 0.2s;
+	border-radius: 50%;
+	margin: 0 3px;
+}
+
+.social-links a:hover {
+	background-color: #FFF;
+	color: #646464;
+	border-color: #FFF
+}
+
+.callback a {
+	display: inline-flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 13rem;
+	line-height: 3rem;
+	height: 3.2rem;
+	border: 1.5px solid #fff;
+	border-radius: 15px;
+	transition: 0.2s;
+}
+
+.callback a:hover {
+	background-color: #FFF;
+	color: red;
+	border-color: #FFF;
+}
+
+ /* Адаптивный сайт */
+@media (max-width: 480px) {
+	html {
+    font-size: 8px;
+}
+
+.container {
+    width: 95%;
+}
+
+#portfolio {
+    padding-bottom: 0;
+}
+
+
+.main-header {
+    min-width: 80%;
+}
+
+.main-header p {
+    margin-top: 1.8rem;
+}
+
+.main-line {
+    width: 245px;
+    margin: 0 auto;
+}
+
+.portfolio-box, .fr-box, .footer-info,
+.social-links, .callback {
+    width: 100%;
+}
+
+.social-icons li {
+    margin: 0 8px;
+}
+
+.portfolio-box {
+    margin-bottom: 5rem;
+}
+
+.portfolio-box:last-child {
+    margin-bottom: 0;
+}
+
+footer {
+    padding-bottom: 0;
+}
+
+.footer-info, .social-links, .callback {
+    margin-bottom: 5rem;
+}
+
+}
+
+@media (max-width: 768px) {
+	html {
+		font-size: 9px;
+	}
+  #portfolio {
+  	padding-bottom: 0;
+  }
+	.container {
+		width: 95%;
+	}
+
+	.portfolio-box, .fr-box, .footer-info, .social-links, .callback {
+		width: 100%;
+	}
+
+	.portfolio-box{
+		margin-bottom: 5rem;
+	}
+
+	.portfolio-box:last-child {
+		margin-bottom: 0;
+	}
+  
+  footer {
+  	padding-bottom: 0;
+  }
+
+  .footer-info, .social-links, .callback {
+  	margin-bottom: 5rem;
+  }
+}
+
+@media (max-width: 900px) {
+	.portfolio-box {
+		padding: 2rem;
+	}
+}
