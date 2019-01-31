@@ -1,0 +1,45 @@
+h1, h2, h3, p {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Arial", sans-serif;
+	font-size: 16px;
+}
+
+.firstpage {
+	text-align: center;
+	padding-top: 3rem;
+}
+
+.header {
+margin-bottom: 36px;
+}
+
+.header h1 {
+	margin: 0;
+}
+
+.header_advantages {
+	color: #fd58b2;
+	font-size: 30px;
+}
+
+.firstpage_advantages {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.advantages_block {
+	display: inline-block;
+	text-align: center;
+	width: 300px;
+	height: 250px;
+	margin: 0 2rem 0 2rem;
+	vertical-align: middle;
+}
+
+.advantages_block p {
+	font-weight: bold;
+}
