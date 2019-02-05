@@ -1,0 +1,103 @@
+$buttons-color: #f05a22
+$text-color: #333333
+
+body 
+	font-family: 'Tahoma', sans-serif
+
+.container
+	width: 1140px
+	margin: 0 auto
+
+.header 
+	padding: 80px 0 100px 0
+	&-wrap
+		display: flex
+		justify-content: space-around
+		align-items: center
+	&-img img
+		max-width: 100%
+	&-text
+		&__title
+			margin-bottom: 15px
+			font-size: 48px
+			font-weight: 700
+			color: #000
+		&__subtitle
+			margin-bottom: 35px
+			font-size: 30px
+			font-weight: 400
+		&__descr
+			margin-bottom: 47px
+			max-width: 530px
+			font-size: 18px
+			font-weight: 400
+			line-height: 27px
+		&__price
+			margin-bottom: 53px
+			font-size: 48px
+			font-weight: 400
+
+.button
+	padding: 22px 42px 22px 42px
+	outline: none
+	border: none
+	border-radius: 5px
+	background-color: $buttons-color
+	color: #ffffff
+	font-size: 24px
+	font-weight: 700
+	&-o
+		padding: 20px 42px 20px 42px
+		margin-left: 40px
+		background-color: transparent
+		border: 2px solid $buttons-color
+		color: $buttons-color
+	&:active,&:focus
+		outline: none
+
+.features
+	padding: 90px 0px 100px 0px
+	background-color: #f2f2f2
+	&-title
+		margin-bottom: 70px
+		text-align: center
+		color: $text-color
+		font-size: 30px
+		font-weight: 700
+	&-wrap 
+		display: flex
+		justify-content: space-between
+	&-block 
+		text-align: center
+		margin-bottom: 30px
+		&__img
+			min-height: 50px
+		&__text
+			margin-top: 12px
+			color: $text-color
+			font-family: "Open Sans"
+			font-size: 18px
+			font-weight: 400px
+			&__tra
+				display: block
+
+.buyers
+	padding: 90px 0px 110px 0px
+	&-title
+		text-align: center
+		margin-bottom: 70px
+		color: $text-color
+		font-size: 30px
+		font-weight: 700
+	&-wrap 
+		display: flex
+		justify-content: space-between
+		flex-wrap: wrap
+	&-img 
+		text-align: center
+		margin-bottom: 40px
+		img 
+			width: 261px
+			height: 261px
+			background-size: contain
+

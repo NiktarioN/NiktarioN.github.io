@@ -1,0 +1,155 @@
+body {
+  font-family: 'Tahoma', sans-serif;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 80px 0 100px 0;
+}
+
+.header-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-img img {
+  max-width: 100%;
+}
+
+.header-text__title {
+  margin-bottom: 15px;
+  font-size: 48px;
+  font-weight: 700;
+  color: #000;
+}
+
+.header-text__subtitle {
+  margin-bottom: 35px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.header-text__descr {
+  margin-bottom: 47px;
+  max-width: 530px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.header-text__price {
+  margin-bottom: 53px;
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.button {
+  padding: 22px 42px 22px 42px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: #f05a22;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.button-o {
+  padding: 20px 42px 20px 42px;
+  margin-left: 40px;
+  background-color: transparent;
+  border: 2px solid #f05a22;
+  color: #f05a22;
+}
+
+.button:active, .button:focus {
+  outline: none;
+}
+
+.features {
+  padding: 90px 0px 100px 0px;
+  background-color: #f2f2f2;
+}
+
+.features-title {
+  margin-bottom: 70px;
+  text-align: center;
+  color: #333333;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.features-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.features-block {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.features-block__img {
+  min-height: 50px;
+}
+
+.features-block__text {
+  margin-top: 12px;
+  color: #333333;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 400px;
+}
+
+.features-block__text__tra {
+  display: block;
+}
+
+.buyers {
+  padding: 90px 0px 110px 0px;
+}
+
+.buyers-title {
+  text-align: center;
+  margin-bottom: 70px;
+  color: #333333;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.buyers-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.buyers-img {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.buyers-img img {
+  width: 261px;
+  height: 261px;
+  background-size: contain;
+}
+/*# sourceMappingURL=style.css.map */
