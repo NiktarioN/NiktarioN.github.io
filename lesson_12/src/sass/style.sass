@@ -1,0 +1,87 @@
+$color-red: #e93b3b
+$color-text: #3a3a3a
+
+body
+	margin: 0
+	padding: 0
+	font-family: "Open Sans"
+	font-size: 16px
+
+h1,h2,p 
+	margin: 0
+	padding: 0
+
+.order-form
+	padding: 35px 0px 50px 0px
+	text-align: center
+	background-color: #f3f3f3
+	&__title
+		margin-bottom: 10px
+		color: $color-text
+		font-size: 30px
+		font-weight: 400
+	&__subtitle
+		margin-bottom: 50px
+		color: #3f3f3f
+		font-size: 19px
+		font-weight: 300
+	&-block
+		position: relative
+		padding: 0 17px 22px 17px
+		background-color: #fff
+		&__title
+			position: absolute
+			top: 0
+			right: 0
+			left: 0
+			width: 100%
+			padding: 20px 0
+			margin-bottom: 6px
+			background-color: #25333c
+			color: #ffffff
+			font-size: 16px
+			font-weight: 700
+			text-transform: uppercase
+		&__img
+			display: inline-block
+			margin-top: 70px
+			width: 61px
+			height: 61px
+		&__descr
+			margin-bottom: 15px
+			color: $color-text
+			font-size: 18px
+			font-weight: 400
+			text-transform: uppercase
+			&_price
+				display: block
+				color: $color-red
+				font-size: 28px
+				line-height: 30px
+		&__input
+			width: 280px
+			height: 50px
+			padding: 0 15px 0 15px
+			margin-bottom: 3px
+			border: 1px solid #c1c4c7
+			background-color: #ffffff
+		&__button
+			padding: 20px 33px
+			margin: 17px 0px 15px 0px
+			outline: none
+			border: none
+			border-radius: 5px
+			background-color: $color-red
+			color: #ffffff
+			font-size: 14px
+			font-weight: 400
+			text-transform: uppercase
+			&:focus,&:active
+				outline: none
+				border: none
+		&__rem
+			color: #616467
+			font-size: 13px
+			font-weight: 300
+			span 
+				display: block
