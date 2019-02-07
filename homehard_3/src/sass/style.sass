@@ -1,0 +1,107 @@
+$color-text-dark: #3a4d5c
+$color-text-gray: #7c8d9c
+$color-bg-green: #37b0ae
+
+body 
+	font-size: 16px
+	font-family: Montserrat
+
+.container
+	width: 1140px
+	margin: 0 auto
+
+.fotocard
+	display: flex
+	justify-content: center
+	align-items: center
+	height: 100vh
+	background-color: #efefef
+	&-block
+		display: flex
+		justify-content: center
+		align-items: center
+	&-block-camera
+		display: flex
+		justify-content: center
+		align-items: center
+		position: relative
+		padding: 170px 0px 60px 0px
+		background-color: $color-bg-green
+		&__logo
+			position: absolute
+			top: 25px
+			left: 25px
+	&-block-info
+		background-color: #fff
+		padding: 90px 40px 90px 80px
+		&__text
+			margin-bottom: 20px
+			color: $color-text-dark
+			font-size: 34px
+			font-weight: 400
+			text-transform: uppercase
+		&__subtitle
+			margin-bottom: 50px
+			color: $color-text-dark
+			font-size: 16px
+			font-weight: 300
+			text-transform: uppercase
+		&__headline
+			margin-bottom: 12px
+			color: $color-text-gray
+			font-size: 13px
+			font-weight: 400
+			text-transform: uppercase
+			letter-spacing: 0.33px
+		&__spec
+			margin-bottom: 35px
+			font-size: 13px
+			font-weight: 400
+			line-height: 28px
+			li 
+				color: $color-bg-green
+				list-style: square
+				margin-left: 16px
+				span 
+					color: $color-text-gray
+		&__reviews
+			display: inline-block
+			margin-right: 15px
+			margin-bottom: 80px
+			color: $color-text-gray
+			font-size: 11px
+			font-weight: 400
+			text-transform: uppercase
+			letter-spacing: 0.28px
+		&__prices
+			margin-bottom: 40px
+			&_new
+				color: $color-text-dark
+				font-size: 37px
+				font-weight: 400
+			&_tr
+				color: $color-text-gray
+				font-size: 13px
+				font-weight: 400				
+		&__button
+			padding: 15px 50px
+			outline: none
+			border: none
+			background-color: $color-bg-green
+			border: 1px solid transparent
+			color: #ffffff
+			font-size: 16px
+			font-weight: 400
+			&_tr
+				margin-left: 20px
+				border: 1px solid $color-text-gray
+				background-color: transparent
+				color: $color-text-gray
+
+
+
+
+
+
+
+
